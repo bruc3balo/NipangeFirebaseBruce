@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nipange</string>
+    <string name="login">Login</string>
+    <string name="login1">Login</string>
+    <string name="full_namee">Full Name</string>
+    <string name="emaill">Email</string>
+    <string name="passwordd">Password</string>
+    <string name="countryy">Country</string>
+    <string name="state_provincee">State / Province</string>
+    <string name="websitee">Website</string>
+    <string name="i_amm">I am</string>
+    <string name="map_key" translatable="false">AIzaSyBops0Mr4ZGo7dtfk-WFRi1Xp8GiIrmmcw</string>
+    <string name="nameerror">Enter Correct name format</string>
+    <string name="api_key">changeme</string>
+</resources>

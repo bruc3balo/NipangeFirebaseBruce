@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".landlord.new_property_launch"
+
+   android:background="#FFFFFF"
+    android:scaleType="centerCrop"
+    android:gravity="center_horizontal"
+    android:adjustViewBounds="true"
+    android:orientation="vertical">
+
+
+<!--        android:scaleType="centerCrop"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:gravity="center_horizontal"-->
+<!--    android:adjustViewBounds="true"-->
+<!--    android:scaleType="centerCrop"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:scaleType="centerCrop">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+<!--    android:layout_toRightOf="@+id/-->
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_backward_arrow"
+        android:background="@null"
+        />
+
+        <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="New Property"
+        android:textColor="#4F8DCB"
+        android:textSize="30sp"
+        />
+
+
+</LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/editText666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:elevation="10dp"
+            android:background="#FFFFFF"
+            android:textColor="#444444"
+            android:textColorHint="#d3d3d3"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+
+
+
+            >
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Property Name"
+            android:inputType="textPostalAddress"
+            android:textColor="#444444"
+            android:textColorHint="#d3d3d3"
+            android:textSize="15sp"
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView12"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:layout_marginEnd="145dp"-->
+<!--        android:layout_marginRight="145dp"-->
+<!--        android:text="New Property"-->
+<!--        android:textColor="#253A4B"-->
+<!--        android:textSize="20sp"-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView13"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:layout_marginEnd="127dp"-->
+<!--        android:layout_marginRight="127dp"-->
+<!--        android:text="is"-->
+<!--        android:textColor="#253A4B"-->
+<!--        android:textSize="37sp"-->
+<!--         />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView14"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginEnd="39dp"-->
+<!--        android:layout_marginRight="39dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:text="your property?"-->
+<!--        android:textColor="#253A4B"-->
+<!--        android:textSize="37sp"-->
+<!--         />-->
+
+
+
+
+
+        //TO BE REVIEWED
+<!--        <LinearLayout-->
+<!--            android:id="@+id/relLayout2"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:elevation="10dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="#FFFFFF"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+<!--&lt;!&ndash;            android:layout_marginRight="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="40dp"&ndash;&gt;-->
+<!--           -->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:src="@drawable/ic_ellipse_231"-->
+<!--        android:drawableTop="@drawable/ic_places"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_places"-->
+<!--        -->
+<!--        />-->
+<!--            -->
+<!--    </LinearLayout>-->
+
+
+
+        <LinearLayout
+            android:id="@+id/relLayout1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:elevation="10dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+             >
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:src="@drawable/ic_places1"
+            />
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/editText6698"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:textColor="#444444"
+                android:textColorHint="#d3d3d3">
+
+                <AutoCompleteTextView
+            android:id="@+id/input_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:hint="Property Location"
+                    android:textColor="#444444"
+                    android:textColorHint="#d3d3d3"
+            android:layout_toRightOf="@+id/imageView6"
+                    android:imeOptions="actionSearch"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView15"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="216dp"-->
+<!--        android:layout_marginLeft="216dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:text="Enter your address manually"-->
+<!--        android:textColor="#4F8DCB"-->
+
+<!--         />-->
+<!--    app:layout_constraintBottom_toTopOf="@+id/sv_location"-->
+
+
+    <!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".new_property_launch">-->
+
+
+
+
+
+    <!--        android:iconifieldByDefault="false"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView6"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView15" />-->
+
+<!--    </RelativeLayout>-->
+
+
+    <fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="370dp"
+        android:layout_height="431dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+       />
+
+<!--    <fragment-->
+<!--        android:id="@+id/place_autocomplete_fragment"-->
+<!--        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:background="@color/black"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/google_map"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView6" />-->
+    <!--    <SearchView-->
+<!--        android:id="@+id/sv_location"-->
+<!--        android:layout_width="316dp"-->
+<!--        android:layout_height="37dp"-->
+<!--        android:layout_above="@+id/google_map"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="23dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_marginBottom="15dp"-->
+<!--        android:background="@drawable/bg_round"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/google_map"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView6"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView15"-->
+<!--    />-->
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Save"
+        android:textColor="#F23B5F"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

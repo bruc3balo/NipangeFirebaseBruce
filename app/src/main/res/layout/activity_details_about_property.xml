@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".landlord.details_about_property">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@android:color/transparent"
+                        android:padding="20dp"
+                        android:src="@drawable/ic_left_arrow_" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/SAVE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="save"
+                    android:textColor="@color/pink"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:text=" Details about \n your property"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="40sp"
+                    android:padding="5dp" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_location"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="false"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Country*"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Select Country"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Address Line 1*"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Address Line 1"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Address Line 2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Address Line 2"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Suburb"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Suburb"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="City"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="City"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="State/Province*"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="State/Province"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Zip/Post Code"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Zip/Post Code"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Multiunit / HMO Preoperty"
+                    android:textColor="@color/black"
+                    android:padding="4dp"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="4dp"
+                    android:drawablePadding="8dp"
+                    app:drawableTint="@color/blue"
+                    android:textColor="@color/black"
+                    android:text="You will be able to add individual units later. You cannot change the type of property after it's been saved"
+                    app:drawableStartCompat="@drawable/info_ic" />
+
+                <View
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/home"/>
+
+                    <LinearLayout
+                        android:layout_marginStart="5dp"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:text="Mortgage Details"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:padding="4dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:text="Enter mortgage details to get an accurate net worth report"
+                            android:textStyle="normal"
+                            android:textSize="17sp"
+                            android:padding="4dp"/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/MortgageDetailsArrow"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/left"
+                        android:layout_gravity="center"
+                        android:tint="@android:color/darker_gray"
+                        android:rotation="180"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/home"/>
+
+                    <LinearLayout
+                        android:layout_marginStart="5dp"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:text="Valuation"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:padding="4dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black"
+                            android:text="Enter valuation details to get your rental yield"
+                            android:textStyle="normal"
+                            android:textSize="17sp"
+                            android:padding="4dp"/>
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/Valuation"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/left"
+                        android:layout_gravity="center"
+                        android:tint="@android:color/darker_gray"
+                        android:rotation="180"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/darker_gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Area (sq ft/m)"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Enter Total Area"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Beds"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Enter Beds"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Baths"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Enter baths"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Notes"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Note"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add a photo"
+                    android:layout_margin="40dp"
+                    android:drawableTint="@color/black"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@android:color/darker_gray"
+                    android:textStyle="bold"
+                    android:drawableLeft="@android:drawable/ic_menu_camera"
+                    android:background="@drawable/button_pink_round_bg"
+                    tools:targetApi="m" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
